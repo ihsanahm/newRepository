@@ -12,6 +12,11 @@ public class useOfBitwiseOprator{
         System.out.println(" The Result of Bitwise and Use : "+(num&num1));
         System.out.println(" The Result of Bitwise OR Use : "+(num|num1));
         System.out.println(" The Result of Bitwise XOR Use : "+(num^num1));
+        System.out.print("enter number for checking complement of number :");
+        int num2=input.nextInt();
+        System.out.println(" The Result of Bitwise Complement Use : "+(~num2));
+        System.out.println(" The Result of Bitwise  Left shift Use : "+(num2>>2));
+        System.out.println(" The Result of Bitwise  Right shift Use : "+(num1<<3));
 
     }
 }
